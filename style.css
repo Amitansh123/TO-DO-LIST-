@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-top: 3rem;
+    height: 100%;
+    width: 350px;
+    min-height: 61px;
+}
+
+.add {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.task {
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+    /* background-color: white; */
+    box-shadow:0 0 10px 4px rgba(0, 0, 0, 0.1);
+    margin: 25px 20px;
+    height: 174px;
+    width: 300px;
+}
+.task .tools{
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+
+.task .tools button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+.task textarea {
+    outline:none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 150px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.hidden{
+    /* display: none; */
+    pointer-events: none;
+}

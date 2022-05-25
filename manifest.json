@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "My Todo List",
+    "version": "1.0",
+    "description": "A plain text description",
+
+    "browser_action": {
+      "popup": "index.html",
+      "default_popup": "index.html"
+    }
+  }
